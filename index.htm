@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /><title>Scaler by Eirik Backer</title>
+	<meta name="description" content="" /><meta name="keywords" content="" />
+	<link rel="stylesheet" media="screen" type="text/css" href="scaler.css" />
+	<!--[if IE]><meta http-equiv="imagetoolbar" content="no" /><meta http-equiv="X-UA-Compatible" content="IE=8" /><![endif]-->
+	<!--The previous line is for tweeking IE a bit - I do not like the imagetoolbar and IE8s backwards compability mode-->
+</head>
+<body>
+	<!--Example start-->
+	<div style="padding:10px;background:#fff;position:absolute;left:10px;bottom:10px;z-index:3;cursor:default">
+		Just an example showing the floater disappearing, safe to remove when using the code
+	</div>
+
+	<span class="content">
+	  <div id="slide_0">slide 0</div>
+	  <div id="slide_1">slide 1</div>
+	  <div id="slide_2">slide 2</div>
+	  <div id="slide_3">slide 3</div>
+	  <div id="slide_4">slide 4</div>
+	</span>
+	<!--Example end-->
+
+	<div id="bg">													<!--Prevent scrolling on Opera, iPhone and iPad -->
+		<b><i><i><img alt="" src="photos/1.jpg" /></i></i></b>		<!--b:holder, i#1: large canvas, i#2: center verticaly -->
+		<b><i><i><img alt="" src="photos/2.jpg" /></i></i></b>
+		<b><i><i><img alt="" src="photos/3.jpg" /></i></i></b>
+		<b><i><i><img alt="" src="photos/4.jpg" /></i></i></b>
+		<b><i><i><img alt="" src="photos/5.jpg" /></i></i></b>
+	</div>
+	<script type="text/javascript" src="scaler.js"></script>
+	<script type="text/javascript" src="example.js"></script>
+</body>
+</html>
